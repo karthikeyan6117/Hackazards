@@ -267,7 +267,7 @@ export default function IncidentDetailPage({ params }: { params: Promise<{ id: s
                       ? `${Math.round(
                           (new Date(incident.endTime).getTime() - new Date(incident.startTime).getTime()) / 60000
                         )} minutes`
-                      : `${Math.round((Date.now() - new Date(incident.startTime).getTime()) / 60000)} minutes ongoing`}
+                      : `${Math.round((new Date(NOW).getTime() - new Date(incident.startTime).getTime()) / 60000)} minutes ongoing`}
                   </p>
                 </div>
                 <div>

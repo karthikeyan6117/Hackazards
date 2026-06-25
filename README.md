@@ -257,3 +257,5 @@ When adding new features:
 ## License
 
 This project is part of the Hackazards monitoring platform initiative.
+#   H a c k a z a r d s  
+ 
